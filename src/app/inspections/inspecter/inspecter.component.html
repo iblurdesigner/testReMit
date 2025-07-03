@@ -1,0 +1,44 @@
+<h3>Nombre inspector</h3>
+
+
+<dl>
+  <td>Nombre inspector</td>
+   <dd>{{name}}</dd>
+
+  <td>Fecha de inspección</td>
+  <dd>{{fechaInspec}}</dd>
+
+  <td>Hora de inspección</td>
+  <dd>{{horaInspec}}</dd>
+  
+  <td>Nombre del sitio</td>
+  <dd>{{nameSitio}}</dd>
+  
+  <td>Dirección del sitio</td>
+  <dd>{{dirSitio}}</dd>
+  
+  <td>Ciudad del sitio</td>
+  <dd>{{citySitio}}</dd>
+  
+  <td>Estado de inspección</td>
+  <dd>{{stateInspec}}</dd>
+</dl>
+
+<div class="col-md-8 d-flex justify-content-between">
+  <button
+    *ngIf="name !== 'Melissa Briones'" 
+    class="btn btn-primary"
+    (click)="changeName('Melissa Briones')">
+      Cambiar nombre
+  </button>
+
+  <button 
+    *ngIf="fechaInspec !== '15-07-2025'"
+    class="btn btn-secondary"
+    (click)="changeDate('15-07-2025')">
+      Cambiar fecha
+  </button>
+
+  <button class="btn btn-success" (click)="resetForm()">reset</button>
+
+</div>

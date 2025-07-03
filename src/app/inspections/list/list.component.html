@@ -1,0 +1,14 @@
+<p>Requisitos</p>
+
+<button class="btn btn-danger mt-20" (click)="deleteLastReq()" *ngIf="Req0040201.length > 0">Borrar último requisito</button>
+
+<h3 *ngIf="deletedReq, else nothing2Del" >Requisito borrado: <strong class="text-danger">{{ deletedReq }}</strong> </h3>
+
+<ng-template #nothing2Del>
+  <h3 >No ha borrado ningún requisito</h3>
+</ng-template>
+
+
+<ul class="mt-2 list-group">
+  <li class="list-group-item" *ngFor="let item of Req0040201">{{ item }}</li>
+</ul>
