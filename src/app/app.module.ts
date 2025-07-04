@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InspecModule } from './inspections/inspec.module';
+import { Req0401Module } from './req0401/req0401.module';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { InspecModule } from './inspections/inspec.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    InspecModule
+    InspecModule,
+    Req0401Module
   ],
   providers: [],
   bootstrap: [AppComponent]
