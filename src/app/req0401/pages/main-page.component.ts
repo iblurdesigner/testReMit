@@ -27,4 +27,8 @@ export class MainPageComponent {
     this.requisites.push(requisito);
   }
 
+  onDeleteReqMain(index: number): void {
+    this.requisites.splice(index, 1);
+  }
+
 }

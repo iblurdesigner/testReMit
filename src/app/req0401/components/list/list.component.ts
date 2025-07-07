@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { Req } from '../../interfaces/req.interface';
 
 @Component({
@@ -21,7 +21,16 @@ export class ListComponent {
 
   ]
 
-  onDeleteReq(index:number): void {
+  onDeleteReqIndex(index:number): void {
     console.log(index)
   }
+
+  @Output()
+  public OnDelete: EventEmitter<number> = new EventEmitter();
+
+  onDeleteReq(index: number): void {
+    this.OnDelete.emit(index);
+  }
+  
+
 }
