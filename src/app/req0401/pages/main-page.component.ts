@@ -20,28 +20,11 @@ export class MainPageComponent {
     {
       name: 'Requisito 03',
       code: '004-02-03'
-    },
-    {
-      name: 'Requisito 04',
-      code: '004-02-04'
-    },
-    {
-      name: 'Requisito 05',
-      code: '004-02-05'
-    },
-    {
-      name: 'Requisito 06',
-      code: '004-02-06'
-    },
-    {
-      name: 'Requisito 07',
-      code: '004-02-07'
     }
   ]
 
-  onNewRequi(addReq: Req):void {
-    console.log('MainPage')
-    console.log(addReq)
+  onNewRequi(requisito: Req):void {
+    this.requisites.push(requisito);
   }
 
 }

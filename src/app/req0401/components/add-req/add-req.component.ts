@@ -8,26 +8,24 @@ import { Req } from '../../interfaces/req.interface';
 })
 export class AddReqComponent {
 
-  // esto va a exponer el valor que se va a emitir
+  // esto es un evento que se emite al padre
   @Output()
   public onNewAddReq: EventEmitter<Req> = new EventEmitter();
 
-  public addReq: Req = {
+  public requisito: Req = {
       name: 'Requisito 1',
       code: '101'
   }
 
   emitRequisito(): void {
-    console.log(this.addReq)
 
     // validaciones para que no vengan sin nombres
-    if(this.addReq.name.length === 0) return;
+    if(this.requisito.name.length === 0) return;
 
     // esto va a emitir el objeto
-    this.onNewAddReq.emit(this.addReq)
+    this.onNewAddReq.emit(this.requisito)
 
-    this.addReq.name = '',
-    this.addReq.code = ''
+    this.requisito = { name: '', code: '' };
   }
 
 }

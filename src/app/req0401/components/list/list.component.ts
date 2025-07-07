@@ -20,4 +20,8 @@ export class ListComponent {
     },
 
   ]
+
+  onDeleteReq(index:number): void {
+    console.log(index)
+  }
 }

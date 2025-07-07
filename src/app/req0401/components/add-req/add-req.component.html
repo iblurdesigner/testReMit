@@ -5,19 +5,18 @@
         type="text" 
         class="form-control mb-2" 
         placeholder="Agregar requisito" 
-        [(ngModel)]="addReq.name" 
+        [(ngModel)]="requisito.name" 
         name="req"
       >
 
       <input 
-        type="number" 
+        type="text" 
         class="form-control mb-2" 
         placeholder="codigo requisito" 
-        [(ngModel)] ="addReq.code" 
+        [(ngModel)] ="requisito.code" 
         name="code"
       >
 
       <button class="btn btn-primary mb-2" >Agregar</button>
 
-      <pre> {{ addReq | json }} </pre>
     </form>
