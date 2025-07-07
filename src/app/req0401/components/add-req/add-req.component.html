@@ -1,7 +1,23 @@
 <h4>Agregar Requisito</h4>
 
-    <form action="">
-      <input type="text" class="form-control mb-2" placeholder="Agregar requisito">
-      <input type="number" class="form-control mb-2" placeholder="codigo requisito">
-      <button class="btn btn-primary mb-2">Agregar</button>
+    <form action="" (ngSubmit)="emitRequisito()">
+      <input 
+        type="text" 
+        class="form-control mb-2" 
+        placeholder="Agregar requisito" 
+        [(ngModel)]="addReq.name" 
+        name="req"
+      >
+
+      <input 
+        type="number" 
+        class="form-control mb-2" 
+        placeholder="codigo requisito" 
+        [(ngModel)] ="addReq.code" 
+        name="code"
+      >
+
+      <button class="btn btn-primary mb-2" >Agregar</button>
+
+      <pre> {{ addReq | json }} </pre>
     </form>

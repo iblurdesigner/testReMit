@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Req } from '../../interfaces/req.interface';
 
 @Component({
   selector: 'req04-list',
@@ -7,4 +8,16 @@ import { Component } from '@angular/core';
 })
 export class ListComponent {
 
+  @Input()
+  public RequisList: Req[] = [
+    {
+      name: 'Ruc',
+      code: '004-02-01'
+    },
+    {
+      name: 'Permiso de Funcionamiento',
+      code: '004-02-01'
+    },
+
+  ]
 }
