@@ -25,7 +25,7 @@ export class Req0401Service {
     }
   ]
 
-  onNewRequi(requisito: Req):void {
+  addRequi(requisito: Req):void {
 
     const newRequi: Req = {
       id: uuid(),
