@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Req } from '../interfaces/req.interface';
+import { Req0401Service } from '../services/req0401.service';
 
 @Component({
   selector: 'req0401-main-page',
@@ -8,27 +8,6 @@ import { Req } from '../interfaces/req.interface';
 })
 export class MainPageComponent {
 
-  public requisites: Req[] = [
-    {
-      name: 'Requisito 01',
-      code: '004-02-01'
-    },
-    {
-      name: 'Requisito 02',
-      code: '004-02-02'
-    },
-    {
-      name: 'Requisito 03',
-      code: '004-02-03'
-    }
-  ]
-
-  onNewRequi(requisito: Req):void {
-    this.requisites.push(requisito);
-  }
-
-  onDeleteReqMain(index: number): void {
-    this.requisites.splice(index, 1);
-  }
+  constructor( public req04Service: Req0401Service) { }
 
 }

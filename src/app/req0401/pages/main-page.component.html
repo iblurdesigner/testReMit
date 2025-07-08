@@ -4,12 +4,12 @@
 
   <div class="col">
     <req04-list 
-      [RequisList]="requisites"
-      (OnDelete)="onDeleteReqMain($event)"
+      [RequisList]="req04Service.requisites"
+      (OnDelete)="req04Service.onDeleteReqMain($event)"
     ></req04-list>  
   </div>
 
   <div class="col">
-    <add-req (onNewAddReq)="onNewRequi($event)"></add-req>
+    <add-req (onNewAddReq)="req04Service.onNewRequi($event)"></add-req>
   </div>
 </div>
