@@ -5,7 +5,7 @@
   <div class="col">
     <req04-list 
       [RequisList]="req04Service.requisites"
-      (OnDelete)="req04Service.onDeleteReqMain($event)"
+      (OnDelete)="req04Service.deleteReqById($event.toString())"
     ></req04-list>  
   </div>
 

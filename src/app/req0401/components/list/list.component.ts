@@ -26,10 +26,12 @@ export class ListComponent {
   }
 
   @Output()
-  public OnDelete: EventEmitter<number> = new EventEmitter();
+  public OnDelete: EventEmitter<string> = new EventEmitter();
 
-  onDeleteReq(index: number): void {
-    this.OnDelete.emit(index);
+  onDeleteReq(id?: string): void {
+    if (!id) return;
+    
+    this.OnDelete.emit(id);
   }
   
 

@@ -35,8 +35,12 @@ export class Req0401Service {
     this.requisites.push(newRequi);
   }
 
-  onDeleteReqMain(index: number): void {
-    this.requisites.splice(index, 1);
+  // onDeleteReqMain(index: number): void {
+  //   this.requisites.splice(index, 1);
+  // }
+
+  deleteReqById(id: string): void {
+    this.requisites = this.requisites.filter(req => req.id !== id);
   }
   
 }
