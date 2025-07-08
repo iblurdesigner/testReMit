@@ -1,3 +1,21 @@
+commit 20252a0604afa9ee36927a24bd92de027b3e71a1
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 8 15:52:29 2025 -0500
+
+    elimnacion de karets
+
+commit df9ff4594f5df0ed94f944ea6bbec3f4ab1924f7
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 8 14:21:39 2025 -0500
+
+    Deja de rastrear .vscode y actualiza .gitignore
+
+commit 2c6b77d4dddc87bb722fae458a49966100f6c9ba
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 8 14:17:50 2025 -0500
+
+    ajustes gitignore y creacion commits.txt
+
 commit 8845bcf4677da4bf0b2fc08842351d83d98e5e96
 Author: iblurdesigner <nevomen@gmail.com>
 Date:   Tue Jul 8 14:13:04 2025 -0500
