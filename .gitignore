@@ -43,3 +43,14 @@ Thumbs.db
 
 # Ignorar paquetes de instalación de Debian
 *.deb
+
+# Editor directories and files
+.vscode
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

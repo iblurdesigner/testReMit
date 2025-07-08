@@ -1,0 +1,65 @@
+commit 8845bcf4677da4bf0b2fc08842351d83d98e5e96
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 8 14:13:04 2025 -0500
+
+    private services 004 01
+
+commit bef6930b0ed0418bbf793cdfe4a031eff3220fb3
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 8 12:25:29 2025 -0500
+
+    eliminar requisito por ID
+
+commit dfb8f4bd70bfe00f4053ddd821490b84a55dd76f
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 8 11:41:30 2025 -0500
+
+    uuid para id unico en requisitos
+
+commit 0008e2a8a84ab48133ade55cd78f266dabc1c7ae
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Tue Jul 8 11:08:13 2025 -0500
+
+    servicio req0401
+
+commit 5e5038a6bc54c9f7e9a5e46718a7bcfa6f886b7f
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 7 16:44:13 2025 -0500
+
+    boton eliminar Emitter fix2
+
+commit 99ba324254f5aa454b7336da56221dd109dc4224
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 7 16:17:07 2025 -0500
+
+    boton eliminar verif index
+
+commit 8f2eb90a560f2286452c8cbe72d95ba693b04f48
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 7 15:43:16 2025 -0500
+
+    ngfor ngclass emit
+
+commit dc0d2f83e697afc2d97ed2abec36f89e3ed7c7ce
+Author: iblurdesigner <nevomen@gmail.com>
+Date:   Mon Jul 7 10:35:05 2025 -0500
+
+    reorganizando en componentes pequeños
+
+commit 7907bc024400d5b41b90406732183bfd7e278fb3
+Author: root <root@P08-PC-04.MINTOP.INT>
+Date:   Mon Jul 7 09:04:54 2025 -0500
+
+    cambios en requisitos - agrega formulario
+
+commit e5bb92e204c7307f63cafe9386b8327f0f9bae4a
+Author: root <root@P08-PC-04.MINTOP.INT>
+Date:   Fri Jul 4 16:32:10 2025 -0500
+
+    modulo pages requisitos 004
+
+commit 2273b382d5721cb6d8f4b0c272277983223acecf
+Author: blurdev <diflores@mtop.gob.ec>
+Date:   Thu Jul 3 16:18:11 2025 -0500
+
+    Initial commit
